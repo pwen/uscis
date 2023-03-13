@@ -33,7 +33,7 @@ def check_status(receipt_number):
 def main(receipt_number):
     status, description = check_status(receipt_number)
     print(status)
-    print('------------------------------------------')
+    print('##################################')
     print(description)
 
 if __name__=="__main__":
